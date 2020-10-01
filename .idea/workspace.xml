@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="812c4c1c-b834-4092-82d5-a59eafd6fd3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rekweb2020_183040004_phpmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/About.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/Constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/about/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/about/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/templates/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/templates/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iGyFooMXSyLFJEm79X630uQUCT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="812c4c1c-b834-4092-82d5-a59eafd6fd3a" name="Default Changelist" comment="" />
+      <created>1601548122187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601548122187</updated>
+      <workItem from="1601548123331" duration="10960000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="735" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601555305026">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="735" y="326" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601555305026" />
+    <state x="676" y="247" key="NewPhpClassDialog" timestamp="1601558972457">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="676" y="247" key="NewPhpClassDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601558972457" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1601564365298">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601564365298" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1601564557832">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601564557832" />
+  </component>
+</project>
