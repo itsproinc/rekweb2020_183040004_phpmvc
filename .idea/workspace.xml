@@ -11,24 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="812c4c1c-b834-4092-82d5-a59eafd6fd3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rekweb2020_183040004_phpmvc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/About.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/Constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/init.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/about/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/about/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/templates/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/templates/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Mahasiswa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/Flasher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Mahasiswa_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/User_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mahasiswa/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mahasiswa/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Constants.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,6 +75,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601548122187</updated>
       <workItem from="1601548123331" duration="10960000" />
+      <workItem from="1601640089649" duration="1573000" />
+      <workItem from="1601719931134" duration="1968000" />
+      <workItem from="1601828466354" duration="3067000" />
+      <workItem from="1601891669504" duration="2563000" />
+      <workItem from="1601914513994" duration="298000" />
+      <workItem from="1601915077450" duration="3411000" />
     </task>
     <servers />
   </component>
@@ -82,23 +97,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="735" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601555305026">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="735" y="326" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601555305026" />
-    <state x="676" y="247" key="NewPhpClassDialog" timestamp="1601558972457">
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601830298410">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="676" y="247" key="NewPhpClassDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601558972457" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1601564365298">
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601830298410" />
+    <state x="676" y="247" key="NewPhpClassDialog" timestamp="1601896824905">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="448" key="NewPhpFileDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601564365298" />
-    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1601564557832">
+    <state x="676" y="247" key="NewPhpClassDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601896824904" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1601831429860">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601564557832" />
+    <state x="794" y="448" key="NewPhpFileDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601831429860" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1601830678026">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601830678026" />
   </component>
 </project>
